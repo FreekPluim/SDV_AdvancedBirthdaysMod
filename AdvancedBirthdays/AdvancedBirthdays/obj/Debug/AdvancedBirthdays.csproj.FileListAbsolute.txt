@@ -4,3 +4,9 @@ C:\Users\freek\source\repos\AdvancedBirthdays\AdvancedBirthdays\obj\Debug\Advanc
 C:\Users\freek\source\repos\AdvancedBirthdays\AdvancedBirthdays\obj\Debug\AdvancedBirthdays.csproj.CoreCompileInputs.cache
 C:\Users\freek\source\repos\AdvancedBirthdays\AdvancedBirthdays\obj\Debug\AdvancedBirthdays.dll
 C:\Users\freek\source\repos\AdvancedBirthdays\AdvancedBirthdays\obj\Debug\AdvancedBirthdays.pdb
+C:\Users\freek\OneDrive\not school\Bureaublad\Stardew mods\SDV_AdvancedBirthdaysMod\AdvancedBirthdays\AdvancedBirthdays\bin\Debug\AdvancedBirthdays.dll
+C:\Users\freek\OneDrive\not school\Bureaublad\Stardew mods\SDV_AdvancedBirthdaysMod\AdvancedBirthdays\AdvancedBirthdays\bin\Debug\AdvancedBirthdays.pdb
+C:\Users\freek\OneDrive\not school\Bureaublad\Stardew mods\SDV_AdvancedBirthdaysMod\AdvancedBirthdays\AdvancedBirthdays\obj\Debug\AdvancedBirthdays.csprojAssemblyReference.cache
+C:\Users\freek\OneDrive\not school\Bureaublad\Stardew mods\SDV_AdvancedBirthdaysMod\AdvancedBirthdays\AdvancedBirthdays\obj\Debug\AdvancedBirthdays.csproj.CoreCompileInputs.cache
+C:\Users\freek\OneDrive\not school\Bureaublad\Stardew mods\SDV_AdvancedBirthdaysMod\AdvancedBirthdays\AdvancedBirthdays\obj\Debug\AdvancedBirthdays.dll
+C:\Users\freek\OneDrive\not school\Bureaublad\Stardew mods\SDV_AdvancedBirthdaysMod\AdvancedBirthdays\AdvancedBirthdays\obj\Debug\AdvancedBirthdays.pdb
