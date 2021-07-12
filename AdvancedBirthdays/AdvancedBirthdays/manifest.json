@@ -1,0 +1,10 @@
+﻿{
+  "Name": "AdvancedBirthdays",
+  "Author": "S4lt1",
+  "Version": "1.0.0",
+  "Description": "This mod adds to the standart birthday system. giving you notifications and being able to set your own birthday!",
+  "UniqueID": "S4lt1.AdvancedBirthdays",
+  "EntryDll": "AdvancedBirthdays.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
