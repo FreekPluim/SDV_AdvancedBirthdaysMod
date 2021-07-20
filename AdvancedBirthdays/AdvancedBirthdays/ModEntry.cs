@@ -20,35 +20,36 @@ namespace AdvancedBirthdays
         /// <param name="helper">Provides simplified APIs for writing mods.</param>
         public override void Entry(IModHelper helper)
         {
-            //helper.Events.Input.ButtonPressed += this.OnButtonPressed;
-
             helper.Events.GameLoop.DayStarted += this.OnDayStarted;
+            helper.Events.Input.ButtonPressed += this.OnButtonPressed;
         }
         
-
-
         /*********
         ** Private methods
         *********/
         /// <summary>Raised after the player presses a button on the keyboard, controller, or mouse.</summary>
         /// <param name="sender">The event sender.</param>
         /// <param name="e">The event data.</param>
-        /*private void OnButtonPressed(object sender, ButtonPressedEventArgs e)
-        {
-            // ignore if player hasn't loaded a save yet
-            if (!Context.IsWorldReady)
-                return;
-
-            // print button presses to the console window
-            this.Monitor.Log($"{Game1.player.Name} pressed {e.Button}.", LogLevel.Debug);
-        }*/
-
-        /// <summary>Raised after the game begins a new day (including when the player loads a save).</summary>
-        /// <param name="sender">The event sender.</param>
-        /// <param name="e">The event arguments.</param>
+        /// 
         private void OnDayStarted(object sender, DayStartedEventArgs e)
         {
             CheckForBirthday();
+        }
+
+        /// <summary>
+        /// Press F10 for screen to appear.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void OnButtonPressed(object sender, ButtonPressedEventArgs e)
+        {
+            if (e.Button == SButton.F10 && Context.IsPlayerFree)
+            {
+                Game1.activeClickableMenu = new BirthdayMenu(4, 15);
+                this.Monitor.Log("Values changed:", LogLevel.Debug);
+                this.Monitor.Log("X = " + Game1.activeClickableMenu.xPositionOnScreen, LogLevel.Debug);
+                this.Monitor.Log("Y = " + Game1.activeClickableMenu.yPositionOnScreen, LogLevel.Debug);
+            }
         }
 
         private void CheckForBirthday()
